@@ -87,6 +87,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.wfc_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1
 
+# Lawnchair Launcher
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
