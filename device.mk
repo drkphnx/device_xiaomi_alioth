@@ -76,7 +76,13 @@ PRODUCT_COPY_FILES += \
  # NQ Client
 PRODUCT_PACKAGES += \
     se_nq_extn_client
-    
+
+# Force voLTE/voWIFI/viLTE
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1
+
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
