@@ -8,7 +8,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     Chrome \
     Chrome-Stub \
     Drive \
-    GoogleCamera \
     Maps \
     MyVerizonServices \
     OBDM_Permissions \
