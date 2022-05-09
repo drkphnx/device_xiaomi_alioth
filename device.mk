@@ -83,8 +83,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.vt_avail_ovr=1
 
 # Gcam
-PRODUCT_PACKAGES += \
-    GoogleCamera
+$(call inherit-product-if-exists, vendor/GcamBSG/GcamBSG-vendor.mk)
 
 # Lawnchair Launcher
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
