@@ -19,6 +19,12 @@ LOCAL_OVERRIDES_PACKAGES := \
     SafetyHubPrebuilt \
     ScribePrebuilt \
     Showcase \
+    Tycho \
+    Velvet \
+    FilesPrebuilt \
+    Papers \
+    NgaResources \
+    Videos \
     Snap \
     SprintDM \
     SprintHM \
