@@ -16,8 +16,15 @@ LOCAL_OVERRIDES_PACKAGES := \
     OemDmTrigger \
     OPScreenRecord \
     Ornament \
+    Videos \
+    Video \
     SafetyHubPrebuilt \
     ScribePrebuilt \
+    Tycho \
+    Velvet \
+    FilesPrebuilt \
+    Papers \
+    NgaResources \
     Showcase \
     Snap \
     MusicFX \
