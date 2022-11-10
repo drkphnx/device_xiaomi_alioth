@@ -52,7 +52,8 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    lib-watermarkshim
+    lib-watermarkshim\
+    libmedia_jni_shim
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
