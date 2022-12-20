@@ -5,14 +5,28 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+    Chrome \
+    Chrome-Stub \
+    Drive \
+    GoogleCamera \
+    Maps \
     MyVerizonServices \
     OBDM_Permissions \
+    FilesPrebuilt \
     obdm_stub \
     OemDmTrigger \
     OPScreenRecord \
     Ornament \
+    Videos \
+    Video \
     SafetyHubPrebuilt \
     ScribePrebuilt \
+    Tycho \
+    Velvet \
+    stk \
+    Stk \
+    Papers \
+    NgaResources \
     Showcase \
     Snap \
     MusicFX \
