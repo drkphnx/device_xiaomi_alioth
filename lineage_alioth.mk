@@ -9,12 +9,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-PRODUCT_NAME := spark_alioth
+PRODUCT_NAME := lineage_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -27,8 +27,19 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
+#Rising Flags
+RISING_CHIPSET := snapdragon-870
+RISING_MAINTAINER := Dark_Phoenix
+RISING_PACKAGE_TYPE := Pixel
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := false
+TARGET_USE_PIXEL_FINGERPRINT := true
+RISING_BUILDTYPE := Personal
+
 #Gapps
-WITH_GAPPS := true
+WITH_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
