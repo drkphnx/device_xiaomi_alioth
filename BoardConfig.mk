@@ -35,5 +35,8 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Inherit from proprietary files for miuicamera
 -include vendor/xiaomi/alioth-miuicamera/products/board.mk
 
+# inherit from spark gapps 
+include vendor/gms/products/board.mk
+
 # Inherit from the proprietary version
 include vendor/xiaomi/alioth/BoardConfigVendor.mk
