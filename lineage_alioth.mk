@@ -38,7 +38,7 @@ TARGET_USE_PIXEL_FINGERPRINT := true
 RISING_BUILDTYPE := Personal
 
 #Inherit spark Gapps
-$(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product, vendor/gms/gms_full.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
