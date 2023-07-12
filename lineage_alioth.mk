@@ -40,6 +40,7 @@ RISING_BUILDTYPE := Personal
 #Gapps
 WITH_GMS := true
 TARGET_CORE_GMS_EXTRAS := true
+TARGET_USE_GOOGLE_TELEPHONY := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
